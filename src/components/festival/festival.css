@@ -1,0 +1,80 @@
+.festivals-container{
+    padding: 20px;
+    background-color: rgb(20, 50, 80)		;
+}
+
+
+.mainFest{
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
+
+.festival-slide{
+
+    margin-top: 40px;
+    color: white;
+}
+
+.festival-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  justify-items: center;
+  padding: 20px;
+
+}
+
+.festival-image img{
+    margin-left: 15px;
+    width: 450px; /* Ensures the image has the desired width */
+  height: 400px;
+  object-fit: cover;
+}
+
+.festival-info{
+    margin-left: 10px;
+    padding: 20px;
+}
+
+
+  
+  .festival-info h2 {
+    margin: 29px;
+  }
+  
+  .festival-info p {
+    margin: 5px 29px;
+  }
+
+
+
+
+
+  .ant-carousel .fest-dots li button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+    border: none;
+    display: block;
+    
+}
+
+.ant-carousel .fest-dots li.slick-active button {
+    background-color: whitesmoke; /* Gold color for active dot */
+  }
+
+
+
+.ant-carousel .slick-prev, 
+.ant-carousel .slick-next {
+  color: whitesmoke;
+  font-weight: bold; /* Change arrow color if needed */
+}
+
+
+

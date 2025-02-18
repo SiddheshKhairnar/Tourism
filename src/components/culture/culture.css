@@ -1,0 +1,42 @@
+.culture-container{
+    padding: 20px;
+    background-color: rgb(106, 100, 92);
+}
+
+.mainConCul{
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.caro-image{
+    padding: 90px;
+    height: auto;
+    width: 600px;
+}
+
+.cus-dots {
+    bottom: 20px;
+  
+  }
+
+  .ant-carousel .cus-dots li button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+    border: none;
+    display: block;
+    
+}
+
+.ant-carousel .cus-dots li.slick-active button {
+    background-color: #FFD700; /* Gold color for active dot */
+  }
+
+
+
+  

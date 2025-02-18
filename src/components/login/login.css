@@ -1,0 +1,44 @@
+
+.login-modal {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f7f9fc;
+  }
+  
+  .login-form {
+    padding: 20px;
+  }
+  
+  .login-form .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .login-form .ant-input {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .login-button {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .login-modal .ant-modal-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .login-modal .ant-modal-header {
+
+    color: white;
+  }
+  
+  .login-modal .ant-modal-footer {
+    display: none;
+  }
+  

@@ -1,0 +1,49 @@
+
+
+.about-us {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: #FAF3E0;
+    
+}
+  
+  .about-us h1, .about-us h2 {
+    color:  #e84e0f;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .team-member h3 {
+    margin: 10px 0 5px 0;
+    color: #333;
+  }
+  
+  .team-member p {
+    color: #777;
+  }
+
+  .pTag{
+    margin: 25px;
+  }
+
+  .h2Last{
+    margin: 20px;
+  }
+  

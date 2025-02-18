@@ -1,0 +1,111 @@
+
+
+.mainBeach{
+    height: 100%;
+    width: 100%;
+    background: #FAF3E0; /* Coral */
+    
+}
+
+.mainPage{
+  
+    color: #e84e0f;;
+    padding: 20px;
+    font-size: 34px;
+}
+
+.beachInfo{
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.mainHeading{
+    margin: 3px;
+    padding: auto;
+    font-size: 28px;
+    color: #e84e0f;;
+}
+.name{
+    margin: 3px;
+    
+    font-family:'Baloo\ 2, sans-serif';
+    font-size: smaller;
+
+}
+.imgInfo{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 70rem;
+    height: 30rem;
+    margin-bottom: 15px;
+    border-radius: 15px;
+
+}
+
+.aboutBeach{
+    font-family: Baloo\ 2, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    padding: 0px 10px;
+}
+
+.info{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-bottom: 1px;
+    margin-top: 0;
+    font-size: 17px;
+    padding: 0px 10px ;
+}
+
+.info1{
+    font-size: 17px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    padding: 0px 10px ;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #008CBA; /* Change the color as needed */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .pagination button.prev::before {
+    content: '⬅';
+  }
+  
+  .pagination button.next::after {
+    content: '➡';
+  }
